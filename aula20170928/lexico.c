@@ -34,6 +34,6 @@ printf("\n\nNomes em ordem alfabetica: \n");
 for(i = 0; i < 5; i++){
 	printf("\n%s",nome[i]);
 }
-	a
+	
 system("pause");
 }
