@@ -8,7 +8,7 @@ int main()
     p1=(unsigned char *) &n1;
     p2=(unsigned char *) &n2;
     ps=(unsigned char *) &s;
-
+0
     printf("Insira dois numeros: ");
     scanf("%d%d", &n1, &n2);
     s=n1+n2;
