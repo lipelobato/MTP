@@ -1,4 +1,18 @@
-﻿1>------ Build started: Project: ptr4.c, Configuration: Debug Win32 ------
-1>MSVCRTD.lib(crtexe.obj) : error LNK2019: unresolved external symbol _main referenced in function ___tmainCRTStartup
-1>c:\users\felip\onedrive\documentos\visual studio 2010\Projects\ptr4.c\Debug\ptr4.c.exe : fatal error LNK1120: 1 unresolved externals
-========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+int main()
+{
+    int n1, n2, s, p1, p2, ps;
+    unsigned char *p;
+    p1=(unsigned char *) &n1;
+    p2=(unsigned char *) &n2;
+    ps=(unsigned char *) &s;
+
+    printf("Insira dois numeros: ");
+    scanf("%d%d", &n1, &n2);
+    s=n1+n2;
+    printf("Endereco do primeiro numero: 0x%p1 | %d\nEndereco do segundo numero: 0x%p2 | %d\nEndereco da soma dos dois: 0x%ps | %d\n", n1, n1, n2, n2, s, s);
+    getche();
+    return 0;
+}
