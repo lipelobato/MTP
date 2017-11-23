@@ -34,6 +34,7 @@ int vazia(Matriz A){
     return(isnan(A.m[0][0]));
 }
 
+
 void destruirMatriz(Matriz A) {
 	int i;
 	for(i = 0; i < A.lin; i++)
