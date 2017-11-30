@@ -25,14 +25,15 @@ Matriz criarMatriz(int M, int N) {
 	A.m = (double **)calloc(A.lin, sizeof(double *));
     for(i = 0; i < A.lin; i++)
         A.m[i] = (double*)calloc(A.col, sizeof(double));
-    //if(M == 0 && N == 0) A.m[0][0] = NAN;
+    if(M == 0 && N == 0) A.m[0][0] = NAN;
 	return A;
 
 }
 
-/*int vazia(Matriz A){
+int vazia(Matriz A){
     return(isnan(A.m[0][0]));
-}*/
+}
+
 
 void destruirMatriz(Matriz A) {
 	int i;
@@ -108,7 +109,7 @@ double cofator (Matriz A, int i, int j){
 }
 
 double determinante(Matriz A){
-double det;
+double det = NAN;
 	int i;
 	if(A.lin != A.col)
 		fprintf(stderr,"Matriz retangular, sem determinante!\n");
