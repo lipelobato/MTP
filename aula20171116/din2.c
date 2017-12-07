@@ -36,6 +36,7 @@ int main (){
 	printf("\n");
 }
 	
+
 	for(i=0;i<l;i++){
 		free(matriz[i]);
 
