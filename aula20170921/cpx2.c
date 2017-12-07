@@ -1,4 +1,4 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include<math.h>
@@ -18,5 +18,6 @@ int main(){
 	mult_imagreal2= ra*conj*I;
 	resultado= (mult_real+mult_imag) + (mult_imagreal1 + mult_imagreal2);
 	printf("a multiplicacao pelo conjugado eh%lf\n",&resultado);
-	system("pause");
+	getche();
+	return 0;
 }
