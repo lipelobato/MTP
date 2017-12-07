@@ -1,4 +1,4 @@
-
+#include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #define n 4
@@ -20,5 +20,6 @@ int main()
 	{
 		printf(" %c ", ponteiro[i]);
 	}
-	system("pause");
+	getche();
+	return 0;
 }
