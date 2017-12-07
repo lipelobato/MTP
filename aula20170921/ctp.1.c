@@ -1,4 +1,4 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -13,6 +13,7 @@ int main ()
  for (i=0; frase[i]!='\0'; i++)
     frase[i]= toupper (frase[i]);
  printf ("A frase em maiusculas  \n%s", frase);
- system("pause");
+ getche();
+ return 0;
 
 }
