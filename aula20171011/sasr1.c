@@ -16,7 +16,7 @@ void fala_computador() {
 	case 5: printf("Fale mais sobre isso\n"); break;
 	case 6: printf("Sobre o que mais quer falar?\n"); break;
 	case 7: printf("Eu nao acho...\n"); break;
-	case 8: printf("Tá bom, voce venceu\n"); break;
+	case 8: printf("TÃ¡ bom, voce venceu\n"); break;
     }
 }
 
