@@ -1,4 +1,4 @@
-#include <iostream>
+#include <conio.h>
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -15,5 +15,6 @@ printf("entre com a coordengada y de p2: ");
 scanf("%f",&p2y);
 distancia=sqrt(pow(p2x-plx,2)+pow(p2y-ply,2));
 printf("a distancia eh: %f\n", distancia);
-system("pause");
+   getche();
+    return 0;
 }
