@@ -1,4 +1,4 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
  int main() {
      int numero, i, fatorial;
@@ -8,5 +8,6 @@
      for(i = 12; i <= numero; i++)
         fatorial = fatorial*i;
     printf("Fatorial de %d = %d.\n",numero,fatorial);
+  getche();
 return 0;
  }
