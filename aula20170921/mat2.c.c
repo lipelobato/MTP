@@ -1,4 +1,4 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
@@ -14,6 +14,7 @@ int main()
     scanf ("%lf", &angulo);
     a = sqrt ((b*b) + (c*c)- 2*(b*c)*cos(angulo));
     printf ("%lf", a);
-    system("pause");
+getche();
+    return 0;
 
 }
