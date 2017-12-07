@@ -1,7 +1,7 @@
-#include <iostream>
 #include <stdio.h>
 #include<stdlib.h>
 #include<complex.h>
+#include<conio.h>
 int main(){
     double complex a, b, Z;
     double ra, rb, ia, ib;
@@ -18,5 +18,6 @@ b= rb + I*ib;
 Z=a+b;
 printf("a soma eh %lf+I*%lf\n", creal(Z), cimag(Z));
 printf("ou igual a %lf<%lf rad\n",cabs(Z), carg(Z));
-system("pause");
+getche();
+    return 0;
 }
