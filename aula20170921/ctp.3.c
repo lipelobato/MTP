@@ -1,4 +1,4 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -13,5 +13,6 @@ int main (){
 if (isalpha(frase[i]))
     c++;
 printf ("o numero de letras eh: \n%d", c);
-system("pause");
+getche();
+ return 0;
 }
