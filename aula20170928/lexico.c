@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include <conio.h>
 int main()
 {
 char nome[5][30], aux[30];
@@ -34,6 +34,6 @@ printf("\n\nNomes em ordem alfabetica: \n");
 for(i = 0; i < 5; i++){
 	printf("\n%s",nome[i]);
 }
-	
-system("pause");
+getche();	
+return 0;
 }
