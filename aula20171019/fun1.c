@@ -17,7 +17,7 @@ printf("entre com o divisor: ");
 scanf("%d", &divisor);
 if(divisor ==0)
 {
-	printf("Não é possível calcular com o divisor igual a 0");
+	printf("NÃ£o Ã© possÃ­vel calcular com o divisor igual a 0");
 	getche();
 	return 0;
 }
