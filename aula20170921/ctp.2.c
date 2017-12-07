@@ -1,4 +1,4 @@
-#include <iostream>
+#include <conio.h>
 #include<stdio.h>
 #include<stdlib.h>
 #include<ctype.h>
@@ -11,5 +11,6 @@ fgets(frase, NCHAR, stdin);
 for(i=0;frase[i];i++)
 frase[i]= tolower(frase[i]);
 printf("A frase em minusculas:\n%s", frase);
-system("pause");
+getche();
+  return 0;
 }
