@@ -1,4 +1,4 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <math.h>
 
@@ -11,5 +11,6 @@ int main()
     scanf("%lf", &n);
     logaritmo= (log10(n)/log10(b));
     printf("o logaritmo eh igual a: %lf\n", logaritmo);
+    getche();
     return 0;
 }
