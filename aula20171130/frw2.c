@@ -84,7 +84,7 @@ vet[i]= rand() % 100;
     fwrite(vet, sizeof(double), d, arquivo);
     fclose(arquivo);
     }
-    else {fprintf(stderr, "Não pode abrir o arquivo!\n");}
+    else {fprintf(stderr, "NÃ£o pode abrir o arquivo!\n");}
     break;
 }
 case 2:
