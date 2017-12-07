@@ -1,4 +1,4 @@
-#include <iostream>
+#include <conio.h>
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
@@ -14,7 +14,7 @@ int main(){
             conta++;
     printf("%f\n",n);
     }
-    printf("s„o %d vezes.", conta);
-
-system("pause");
+    printf("s√£o %d vezes.", conta);
+getche();
+return 0;
 }
